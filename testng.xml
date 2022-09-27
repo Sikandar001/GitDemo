@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="TestOnDay1">
+    <classes>
+      <class name="test.day1"/>
+      <class name="test.Day1A">
+     <!--   <methods>
+        <include name="demo.*"/>
+      </methods> -->
+      </class>
+      <class name="test.Day1B"/>
+    </classes>
+  </test> 
+  <test name="Loans">
+   <classes>
+      <class name="test.Day1B">
+      <!--   <methods>
+        <include name="demo.*"/>
+      </methods> -->
+      </class>
+    </classes>
+  </test>  
+</suite> 

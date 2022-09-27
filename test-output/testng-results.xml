@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-31T13:01:47 IST" name="Suite" finished-at="2022-08-31T13:01:47 IST" duration-ms="58">
+    <groups>
+      <group name="sikku">
+        <method signature="Day1A.demo1()[pri:0, instance:test.Day1A@769f71a9]" name="demo1" class="test.Day1A"/>
+        <method signature="Day1B.demo3()[pri:0, instance:test.Day1B@4c9f8c13]" name="demo3" class="test.Day1B"/>
+        <method signature="day1.demo2()[pri:0, instance:test.day1@69b2283a]" name="demo2" class="test.day1"/>
+      </group> <!-- sikku -->
+    </groups>
+    <test started-at="2022-08-31T13:01:47 IST" name="TestOnDay1" finished-at="2022-08-31T13:01:47 IST" duration-ms="58">
+      <class name="test.Day3">
+        <test-method signature="demoDay3(java.lang.String)[pri:0, instance:test.Day3@5ae50ce6]" started-at="2022-08-31T13:01:47 IST" name="demoDay3" finished-at="2022-08-31T13:01:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hi buddies]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoDay3 -->
+      </class> <!-- test.Day3 -->
+      <class name="test.Day1A">
+        <test-method is-config="true" signature="before()[pri:0, instance:test.Day1A@769f71a9]" started-at="2022-08-31T13:01:47 IST" name="before" finished-at="2022-08-31T13:01:47 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="demo()[pri:0, instance:test.Day1A@769f71a9]" started-at="2022-08-31T13:01:47 IST" name="demo" finished-at="2022-08-31T13:01:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method signature="demo1()[pri:0, instance:test.Day1A@769f71a9]" started-at="2022-08-31T13:01:47 IST" name="demo1" finished-at="2022-08-31T13:01:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo1 -->
+      </class> <!-- test.Day1A -->
+      <class name="test.Day1B">
+        <test-method signature="demo3()[pri:0, instance:test.Day1B@4c9f8c13]" started-at="2022-08-31T13:01:47 IST" name="demo3" finished-at="2022-08-31T13:01:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo3 -->
+        <test-method signature="loanForCar()[pri:0, instance:test.Day1B@4c9f8c13]" started-at="2022-08-31T13:01:47 IST" name="loanForCar" finished-at="2022-08-31T13:01:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanForCar -->
+        <test-method signature="loanForhome()[pri:0, instance:test.Day1B@4c9f8c13]" started-at="2022-08-31T13:01:47 IST" name="loanForhome" finished-at="2022-08-31T13:01:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanForhome -->
+      </class> <!-- test.Day1B -->
+      <class name="test.day1">
+        <test-method signature="demo()[pri:0, instance:test.day1@69b2283a]" started-at="2022-08-31T13:01:47 IST" name="demo" finished-at="2022-08-31T13:01:47 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method signature="demo1()[pri:0, instance:test.day1@69b2283a]" started-at="2022-08-31T13:01:47 IST" name="demo1" finished-at="2022-08-31T13:01:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo1 -->
+        <test-method signature="demo2()[pri:0, instance:test.day1@69b2283a]" started-at="2022-08-31T13:01:47 IST" name="demo2" finished-at="2022-08-31T13:01:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo2 -->
+        <test-method signature="home()[pri:0, instance:test.day1@69b2283a]" started-at="2022-08-31T13:01:47 IST" name="home" finished-at="2022-08-31T13:01:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method is-config="true" signature="before()[pri:0, instance:test.day1@69b2283a]" started-at="2022-08-31T13:01:47 IST" name="before" finished-at="2022-08-31T13:01:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+      </class> <!-- test.day1 -->
+    </test> <!-- TestOnDay1 -->
+  </suite> <!-- Suite -->
+</testng-results>
